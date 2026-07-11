@@ -19,5 +19,22 @@ map.set("ca", "comlambia")
 // console.log(map)
 
 for(const [key,value] of map){
-    console.log(key ,':->', value)
+    // console.log(key ,':->', value)
+} 
+
+const myobj = {
+    'name' : " kaadu",
+    'name1' : "baigan",
+    'name2' : "lauki"
+}
+for (const [key,val] of myobj) {
+    // console.log(key ,":->",val); // myobj is not iterable 
+}
+const myobject = {
+    name : " kaadu",
+    name1 : "baigan",
+    name2 : "lauki"
+}
+for(const [key,val] of myobject){
+    console.log(key,";> ", val); // still it is not iterable 
 }

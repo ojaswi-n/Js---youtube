@@ -3,7 +3,7 @@ const obj = {
     rb:"ruby",
     cpp:"c++"
 }
-for (const key in obj) {
+for (let  in obj) {
     // console.log(`${key} is shortform of ${obj[key]}`);
 }
 
@@ -21,5 +21,14 @@ map.set("as","australia")
 map.set("ca", "canada"); 
 map.set("ca", "comlambia")
 for (const key in map) {
-    console.log(key)
+    // console.log(key)
+}
+const subject ={
+    sub1:"english",
+    sub2:"hindi",
+    sub3:"maths",
+    sub4:"bio"
+}
+for(let j in subject){
+    console.log(subject[j]) // subject is not iterable
 }

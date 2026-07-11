@@ -20,4 +20,20 @@ coding.forEach((item,index,arr)=>{
     // console.log(item,index,arr)
 })
 
-const multipleobj
+const multipleobj = [
+    {
+        lang :"javascipt",
+        run:"js"
+    },
+    {
+        lang :"java",
+        run:"java"
+    },
+    {
+        lang :"ruby",
+        run:"rb"
+    }
+]
+multipleobj.forEach((multipleobj)=>{
+    console.log(multipleobj)
+})

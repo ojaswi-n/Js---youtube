@@ -16,4 +16,23 @@
         <div class ="day">Sunday</div>
     </div>
 </body>
-</html>f
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent)
+    // console.log(parent.children)
+    // console.log(parent.children[1].innerHTML);
+    for(let i = 0 ; i < parent.children.length ; i++){
+        // console.log(parent.children[i].innerHTML)
+    }
+    parent.children[1].style.color = 'pink'
+    // console.log(parent.firstElementChild.style.color = 'pink')
+    // console.log(parent.lastElementChild.style.color = 'pink')
+
+    const day = document.querySelector('.day')
+    // console.log(day)
+    // console.log(day.parentElement)
+    // console.log(day.nextElementSibling)
+    console.log("Nodes : " , parent.childNodes)
+</script>
+
+</html>
